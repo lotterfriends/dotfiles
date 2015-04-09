@@ -6,3 +6,4 @@
 - extract function
 - cat with source highlighting for js, sh, html and php
 - coloured man pages
+- add svn/git branch infos to prompt
