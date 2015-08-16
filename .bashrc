@@ -2,6 +2,9 @@
 # add bin to path 
 PATH="$PATH:~/bin"
 
+# set vim as default editor
+export EDITOR=vim
+
 alias la="ls -la"
 alias ll="ls -l"
 alias l="ls -l"
