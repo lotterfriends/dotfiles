@@ -8,6 +8,7 @@ export EDITOR=vim
 alias la="ls -la"
 alias ll="ls -l"
 alias l="ls -l"
+alias sysinfos='inxi -Fx'
 
 function extract() {
      if [ -f $1 ] ; then
