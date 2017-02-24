@@ -5,11 +5,6 @@ PATH="$PATH:~/bin"
 # set vim as default editor
 export EDITOR=vim
 
-alias la="ls -la"
-alias ll="ls -l"
-alias l="ls -l"
-alias sysinfos='inxi -Fx'
-
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
