@@ -10,6 +10,14 @@ alias ll="ls -l"
 alias l="ls -l"
 alias sysinfos='inxi -Fx'
 
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+if [ -f ~/.bash_functions ]; then
+    . ~/.bash_functions
+fi
+
 function extract() {
      if [ -f $1 ] ; then
          case $1 in
