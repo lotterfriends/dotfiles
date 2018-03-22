@@ -83,3 +83,8 @@ function man() {
     LESS_TERMCAP_us=$'\E[04;38;5;146m' \
     man "$@"
 }
+
+function dns () {
+    dig +nocmd $1 any +multiline +noall +answer
+}
+
