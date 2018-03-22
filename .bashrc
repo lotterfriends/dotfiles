@@ -95,6 +95,18 @@ elif type compctl &>/dev/null; then
 fi
 ###-end-npm-completion-###
 
-source /etc/bash_completion.d/git-completion.bash
+# https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+if [ -f /etc/bash_completion.d/git-completion.bash ]; then
+    source /etc/bash_completion.d/git-completion.bash
+fi
+
+# https://raw.githubusercontent.com/bobthecow/git-flow-completion/master/git-flow-completion.bash
+if [ -f /etc/bash_completion.d/git-flow-completion.bash ]; then
+    source /etc/bash_completion.d/git-flow-completion.bash
+fi
+
+if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+    . /opt/local/etc/profile.d/bash_completion.sh
+fi
 
 
