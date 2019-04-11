@@ -15,7 +15,7 @@ fi
 
 # show repo infos in PS1
 function parse_git_branch () {
-         git name-rev HEAD 2> /dev/null | echo -n " (git »" $(git branch | grep \* | cut -d ' ' -f2)") ";
+        git rev-parse --abbrev-ref HEAD 2> /dev/null | sed 's#\(.*\)# (git » \1)#'
 }
 function parse_svn_branch() {
         parse_svn_url | sed -e 's#^'"$(parse_svn_repository_root)"'##g' | awk '{print " (svn » "$1")" }'
