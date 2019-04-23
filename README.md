@@ -10,3 +10,7 @@
 
 ## .inputrc
 - mappings for "page up" and "page down" to search the history
+
+
+## install 
+sudo apt-get install git-gui gitk
