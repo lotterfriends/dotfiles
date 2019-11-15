@@ -14,3 +14,7 @@
 
 ## install 
 sudo apt-get install git-gui gitk
+
+
+## additional
+- add npm completion `npm completion >> ~/.bashrc`
