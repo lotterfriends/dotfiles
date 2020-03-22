@@ -30,3 +30,8 @@ sudo apt-add-repository ppa:dlech/keepass2-plugins
 sudo apt-get update
 sudo apt-get install keepass2-plugin-tray-icon
 ```
+
+### taskbar applets
+
+- Multicore System monitor
+- Num/Caps Display
