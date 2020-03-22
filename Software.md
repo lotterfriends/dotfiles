@@ -16,6 +16,16 @@ FH: Flathub
 - KeePass2 (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
 
+### apt-get
+
 ```sh
-> apt-get install vim htop jq git git-flow git-lfs
+apt-get install vim htop jq git git-flow git-lfs
+```
+
+### KeePass Addons
+
+```sh
+sudo apt-add-repository ppa:dlech/keepass2-plugins
+sudo apt-get update
+sudo apt-get install keepass2-plugin-tray-icon
 ```
