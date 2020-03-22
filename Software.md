@@ -3,6 +3,7 @@
 HP: Homepage
 FH: Flathub
 
+- chrome ([HP](https://www.google.com/intl/de_de/chrome/)
 - vscode ([HP](https://code.visualstudio.com/download))
 - slack ([HP](https://slack.com/intl/de-de/downloads/linux))
 - zoom ([HP](https://zoom.us/download))
