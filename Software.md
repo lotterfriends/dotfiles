@@ -17,11 +17,19 @@ FH: Flathub
 - KeePass2 (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
 
-### apt-get
+### simple apt-get
 
 ```sh
 apt-get install vim htop jq git git-flow git-lfs
 ```
+
+### Wireguard
+```sh
+sudo add-apt-repository ppa:wireguard/wireguard
+sudo apt-get update
+sudo apt-get install wireguard
+```
+
 
 ### KeePass Addons
 
