@@ -20,7 +20,7 @@ FH: Flathub
 ### simple apt-get
 
 ```sh
-apt-get install vim htop jq git git-flow git-lfs resolvconf
+apt-get install vim htop jq git git-flow git-lfs resolvconf ffmpeg
 ```
 
 ### Wireguard
