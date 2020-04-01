@@ -31,8 +31,13 @@ sudo apt-get install wireguard
 ```
 
 
-### KeePass Addons
+### KeePass
+Copy/Paste to Clipboard
+```sh
+sudo apt-get install xsel:i386
+```
 
+Tray Icon
 ```sh
 sudo apt-add-repository ppa:dlech/keepass2-plugins
 sudo apt-get update
