@@ -15,5 +15,11 @@ $ systemctl list-unit-files | grep enabled
 start google-chrome with fake webcam
 
 ```bash
-google-chrome --use-fake-device-for-media-stream --use-file-for-fake-video-capture=/home/andre/Videos/small.mjpeg
+$ google-chrome --use-fake-device-for-media-stream --use-file-for-fake-video-capture=/home/andre/Videos/small.mjpeg
 ```
+
+(get the video file)[http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5] 
+```bash
+$ ffmpeg -i small.mp4 small.mjpeg
+```
+
