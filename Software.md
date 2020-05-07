@@ -59,5 +59,5 @@ sudo apt-get update
 sudo apt-get install papirus-icon-theme
 ```
 
-https://github.com/Foggalong/hardcode-fixer
-https://github.com/bilelmoussaoui/Hardcode-Tray
+- https://github.com/Foggalong/hardcode-fixer
+- https://github.com/bilelmoussaoui/Hardcode-Tray
