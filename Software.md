@@ -48,3 +48,16 @@ sudo apt-get install keepass2-plugin-tray-icon
 
 - Multicore System monitor
 - Num/Caps Display
+
+### Icons
+
+[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+```sh
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install papirus-icon-theme
+```
+
+https://github.com/Foggalong/hardcode-fixer
+https://github.com/bilelmoussaoui/Hardcode-Tray
