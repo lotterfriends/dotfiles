@@ -110,3 +110,10 @@ if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
 fi
 
 
+# Disable mouse middle button
+TOUCHPAD_ID=`xinput | grep -i Touchpad | sed -r 's/.*id=([0-9]*).*/\1/g'`
+MIDDLE_BUTTON_ID=`xinput --list-props $TOUCHPAD_ID | grep -i Middle | grep -vi Default | sed -r 's/.*\(([0-9]*)\).*/\1/g'`
+xinput --set-prop $TOUCHPAD_ID $MIDDLE_BUTTON_ID 1
+
+
+
