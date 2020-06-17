@@ -33,9 +33,9 @@ apt-get install vim htop jq resolvconf ffmpeg gifsicle fonts-firacode
 
 ### Wireguard
 ```sh
-sudo add-apt-repository ppa:wireguard/wireguard
-sudo apt-get update
-sudo apt-get install wireguard
+add-apt-repository ppa:wireguard/wireguard
+apt-get update
+apt-get install wireguard
 ```
 
 ### KeePass
@@ -46,9 +46,9 @@ sudo apt-get install xsel:i386
 
 Tray Icon
 ```sh
-sudo apt-add-repository ppa:dlech/keepass2-plugins
-sudo apt-get update
-sudo apt-get install keepass2-plugin-tray-icon
+apt-add-repository ppa:dlech/keepass2-plugins
+apt-get update
+apt-get install keepass2-plugin-tray-icon
 ```
 
 ### Icons
@@ -56,9 +56,9 @@ sudo apt-get install keepass2-plugin-tray-icon
 [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
 ```sh
-sudo add-apt-repository ppa:papirus/papirus
-sudo apt-get update
-sudo apt-get install papirus-icon-theme
+add-apt-repository ppa:papirus/papirus
+apt-get update
+apt-get install papirus-icon-theme
 ```
 
 - https://github.com/Foggalong/hardcode-fixer
