@@ -17,10 +17,18 @@ FH: Flathub
 - KeePass2 (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
 
-### simple apt-get
+### git
+
+ ```sh
+ add-apt-repository ppa:git-core/ppa 
+ apt update
+ apt install git git-flow git-lfs
+ ```
+
+### apt-get
 
 ```sh
-apt-get install vim htop jq git git-flow git-lfs resolvconf ffmpeg gifsicle fonts-firacode
+apt-get install vim htop jq resolvconf ffmpeg gifsicle fonts-firacode
 ```
 
 ### Wireguard
@@ -29,7 +37,6 @@ sudo add-apt-repository ppa:wireguard/wireguard
 sudo apt-get update
 sudo apt-get install wireguard
 ```
-
 
 ### KeePass
 Copy/Paste to Clipboard
@@ -43,11 +50,6 @@ sudo apt-add-repository ppa:dlech/keepass2-plugins
 sudo apt-get update
 sudo apt-get install keepass2-plugin-tray-icon
 ```
-
-### taskbar applets
-
-- Multicore System monitor
-- Num/Caps Display
 
 ### Icons
 
@@ -67,3 +69,7 @@ sudo apt-get install papirus-icon-theme
 #### Chrome 
 Disable: chrome://flags/#hardware-media-key-handling
 
+### taskbar applets
+
+- Multicore System monitor
+- Num/Caps Display
