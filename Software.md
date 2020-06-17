@@ -13,7 +13,7 @@ FH: Flathub
 - Inkscape ([FH](https://flathub.org/apps/details/org.inkscape.Inkscape))
 - gimp ([FH](https://flathub.org/apps/details/org.gimp.GIMP))
 - Spotify ([FH](https://flathub.org/apps/details/com.spotify.Client))
-- Filezilla ([FH](https://flathub.org/apps/details/org.filezillaproject.Filezilla))
+- Filezilla (Anwendungsverwaltung)
 - KeePass2 (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
 
@@ -61,3 +61,9 @@ sudo apt-get install papirus-icon-theme
 
 - https://github.com/Foggalong/hardcode-fixer
 - https://github.com/bilelmoussaoui/Hardcode-Tray
+
+### Settings
+
+#### Chrome 
+Disable: chrome://flags/#hardware-media-key-handling
+
