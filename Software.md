@@ -67,7 +67,7 @@ apt-get install papirus-icon-theme
 ### Settings
 
 #### Chrome 
-Disable: chrome://flags/#hardware-media-key-handling
+Disable: chrome://flags/#hardware-media-key-handling [Reason](https://www.omgchrome.com/chrome-google-music-media-keys/)
 
 ### taskbar applets
 
