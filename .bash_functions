@@ -88,3 +88,23 @@ function dns () {
     dig +nocmd $1 any +multiline +noall +answer
 }
 
+function gen_index () {
+    [ ! -d "$1" ] && echo "Directory $1 DOES NOT exists."
+    
+    if [[ "$1" == */ ]] 
+    then 
+        dir="$1"
+    else
+        dir="$1"/
+    fi
+
+    find ${dir} -iname "*.ts" -not -name "*spec.ts" -not -name "*index.ts" |  while read line; do
+        file_name=$(basename $line .ts);
+        echo "export * from './${file_name}';";
+    done
+}
+
+
+function track_time () {
+    start=`date +%s` && "$@" && echo "Duration: $(echo "scale=2; ("$(date +%s)-$start")/60" | bc -l) Minutes"
+}
