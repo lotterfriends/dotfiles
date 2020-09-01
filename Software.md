@@ -38,10 +38,12 @@ apt-get update
 apt-get install wireguard
 ```
 
-### KeePass
-Copy/Paste to Clipboard
+### KeePassXC
+
 ```sh
-sudo apt-get install xsel:i386
+sudo add-apt-repository ppa:phoerious/keepassxc
+sudo apt-get update
+sudo apt-get install keepassxc
 ```
 
 Tray Icon
