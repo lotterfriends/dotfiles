@@ -14,7 +14,6 @@ FH: Flathub
 - gimp ([FH](https://flathub.org/apps/details/org.gimp.GIMP))
 - Spotify ([FH](https://flathub.org/apps/details/com.spotify.Client))
 - Filezilla (Anwendungsverwaltung)
-- KeePass2 (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
 
 ### git
