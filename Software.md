@@ -30,6 +30,11 @@ FH: Flathub
 apt-get install vim htop jq resolvconf ffmpeg gifsicle fonts-firacode
 ```
 
+### to start qt applications fast/normal
+```sh
+sudo apt install appmenu-registrar vala-panel-appmenu-common
+```
+
 ### Wireguard
 ```sh
 add-apt-repository ppa:wireguard/wireguard
