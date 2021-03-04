@@ -15,6 +15,7 @@ FH: Flathub
 - Spotify ([FH](https://flathub.org/apps/details/com.spotify.Client))
 - Filezilla (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
+- zoom ([HP](https://zoom.us/download))
 
 ### git
 
