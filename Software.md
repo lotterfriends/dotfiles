@@ -16,6 +16,9 @@ FH: Flathub
 - Filezilla (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
 - zoom ([HP](https://zoom.us/download))
+- Emote ([GitHub](https://github.com/tom-james-watson/Emote))
+- Notable https://notable.app/
+- Notable ([HP](https://notable.app/))
 
 ### git
 
