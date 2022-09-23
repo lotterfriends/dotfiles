@@ -79,3 +79,5 @@ apt-get install papirus-icon-theme
 #### Chrome 
 Disable: chrome://flags/#hardware-media-key-handling [Reason](https://www.omgchrome.com/chrome-google-music-media-keys/)
 
+## Drivers
+- [Displaylink](https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu) - [Howto](https://www.displaylink.org/forum/showpost.php?p=90853&postcount=2)
