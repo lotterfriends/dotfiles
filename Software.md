@@ -21,7 +21,14 @@ FH: Flathub
 - Poedit ([FH](https://flathub.org/apps/net.poedit.Poedit))
 - Quickemu ([GitHub](https://github.com/quickemu-project/quickemu))
 - TeamViewer
-  
+- asdf ([HP](https://asdf-vm.com/guide/getting-started.html))
+
+
+### kubcetl
+```sh
+asdf install kubectl@1.25.14
+```
+
 ### git
 
  ```sh
