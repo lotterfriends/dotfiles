@@ -20,6 +20,7 @@ FH: Flathub
 - 1PW ([HP](https://1password.com/downloads/linux))
 - Poedit ([FH](https://flathub.org/apps/net.poedit.Poedit))
 - Quickemu ([GitHub](https://github.com/quickemu-project/quickemu))
+- Starship ([HP](https://starship.rs/))
 - TeamViewer
 - asdf ([HP](https://asdf-vm.com/guide/getting-started.html))
 
