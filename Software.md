@@ -5,9 +5,6 @@ FH: Flathub
 
 - chrome ([HP](https://www.google.com/intl/de_de/chrome/))
 - vscode ([HP](https://code.visualstudio.com/download))
-- slack ([HP](https://slack.com/intl/de-de/downloads/linux))
-- zoom ([HP](https://zoom.us/download))
-- evolution ([FH](https://flathub.org/apps/details/org.gnome.Evolution))
 - gitg ([FH](https://flathub.org/apps/details/org.gnome.gitg))
 - Flameshot ([GitHub](https://github.com/lupoDharkael/flameshot))
 - Inkscape ([FH](https://flathub.org/apps/details/org.inkscape.Inkscape))
@@ -15,11 +12,16 @@ FH: Flathub
 - Spotify ([FH](https://flathub.org/apps/details/com.spotify.Client))
 - Filezilla (Anwendungsverwaltung)
 - nvm ([GitHub](https://github.com/nvm-sh/nvm))
-- zoom ([HP](https://zoom.us/download))
 - Emote ([GitHub](https://github.com/tom-james-watson/Emote))
-- Notable https://notable.app/
-- Notable ([HP](https://notable.app/))
-
+- Obsidian ([HP](https://obsidian.md/))
+- YouTube Music Desktop ([HP](https://ytmdesktop.app/))
+- Dive ([GitHub](https://github.com/wagoodman/dive))
+- CrossFTP ([HP](https://www.crossftp.com/))
+- 1PW ([HP](https://1password.com/downloads/linux))
+- Poedit ([FH](https://flathub.org/apps/net.poedit.Poedit))
+- Quickemu ([GitHub](https://github.com/quickemu-project/quickemu))
+- TeamViewer
+  
 ### git
 
  ```sh
@@ -31,12 +33,12 @@ FH: Flathub
 ### apt-get
 
 ```sh
-apt-get install vim htop jq resolvconf ffmpeg gifsicle fonts-firacode
+apt-get install vim htop jq ffmpeg gifsicle fonts-firacode
 ```
 
 ### to start qt applications fast/normal
 ```sh
-sudo apt install appmenu-registrar vala-panel-appmenu-common
+sudo apt install appmenu-registrar vala-panel-appmenu-common exa neovim
 ```
 
 ### Wireguard
