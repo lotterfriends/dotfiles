@@ -41,12 +41,12 @@ asdf install kubectl@1.25.14
 ### apt-get
 
 ```sh
-apt-get install vim htop jq ffmpeg gifsicle fonts-firacode
+apt-get install vim htop jq ffmpeg gifsicle fonts-firacode exa neovim
 ```
 
 ### to start qt applications fast/normal
 ```sh
-sudo apt install appmenu-registrar vala-panel-appmenu-common exa neovim
+sudo apt install appmenu-registrar vala-panel-appmenu-common 
 ```
 
 ### Wireguard
@@ -64,12 +64,7 @@ sudo apt-get update
 sudo apt-get install keepassxc
 ```
 
-Tray Icon
-```sh
-apt-add-repository ppa:dlech/keepass2-plugins
-apt-get update
-apt-get install keepass2-plugin-tray-icon
-```
+
 
 ### Icons
 
